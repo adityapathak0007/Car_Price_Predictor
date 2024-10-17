@@ -45,6 +45,9 @@ if st.sidebar.button("Predict Price"):
         'fuel_type': [selected_fuel_type]
     })
 
+    # Calculate car_age based on the input data
+    input_data['car_age'] = 2024 - input_data['year']  # Assuming current year is 2024
+
     # Predict the car price using the model
     predicted_price = model.predict(input_data)[0]
     st.sidebar.success(f"The predicted price for the selected car is: ₹{round(predicted_price, 2)}")
