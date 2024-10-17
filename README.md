@@ -1,8 +1,8 @@
-# 🚗 Car Price Prediction App
+# 🚗 Car Price Prediction Applications
 
-[View Car Price Prediction App](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
+[View Car Price Prediction App built using Streamlit](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
 
-This **Car Price Prediction App** allows users to predict the price of used cars based on various factors such as the car's brand, model, year of purchase, fuel type, and kilometers driven. The prediction is powered by a pre-trained linear regression model.
+This repository contains two implementations of a **Car Price Prediction App**: one built using **Flask** and the other using **Streamlit**. Both applications allow users to predict the price of used cars based on various input features such as the car's brand, model, year of purchase, fuel type, and kilometers driven.
 
 ## 🛠️ Features
 
@@ -12,13 +12,13 @@ This **Car Price Prediction App** allows users to predict the price of used cars
   - Year of purchase
   - Fuel type (Petrol, Diesel, etc.)
   - Kilometers driven
-- 🌐 Responsive web interface built using **Streamlit**.
+- 🌐 Responsive web interface built using **Flask** (for the Flask app) and **Streamlit** (for the Streamlit app).
 - 📊 Real-time price predictions based on user input.
 - 💻 Simple and clean UI for an intuitive user experience.
 
 ## 🧠 How It Works
 
-The app collects input from the user and calculates the predicted car price using a **linear regression model**. The model was trained on a dataset containing features like car brand, model, year, fuel type, kilometers driven, and price.
+Both apps collect user input and utilize a **linear regression model** to predict car prices. The model was trained on a dataset containing features such as car brand, model, year, fuel type, kilometers driven, and price.
 
 ## 📄 Data
 
@@ -64,14 +64,26 @@ To run this app locally, follow these steps:
 
 ---
 
-### 6. Files
+## 🛠️ Technologies Used
+
+- **Python**: The core programming language used to build the apps.
+- **Flask**: Used for building the web application backend (Flask app).
+- **Streamlit**: Used for building the web application (Streamlit app).
+- **Bootstrap**: For creating the responsive and clean user interface (Flask app).
+- **Pandas**: Used for data manipulation and analysis.
+- **Scikit-learn**: Used to build and save the machine learning model.
+- **Pickle**: Used to serialize and deserialize the trained model.
+
 ## 📁 Files
 
+- **app.py**: The main Python script for the Flask web app.
 - **app2.py**: The main Python script for the Streamlit web app.
 - **Cleaned Car.csv**: The dataset used for predictions.
 - **LinearRegressionModel.pkl**: The saved model used to predict car prices.
-- **requirements.txt**: The list of Python packages required to run the app.
+- **requirements.txt**: The list of Python packages required to run the apps.
+- **templates/index.html**: The HTML template for the Flask app's user interface.
 - **README.md**: Documentation file (this file).
+
 
 ## 🎯 Usage
 
@@ -84,19 +96,11 @@ To run this app locally, follow these steps:
 The predicted car price will be displayed on the sidebar.
 
 
-## 🛠️ Technologies Used
-
-- **Python**: The core programming language used to build the app.
-- **Streamlit**: A fast and interactive way to create web apps with Python.
-- **Pandas**: Used for data manipulation and analysis.
-- **Scikit-learn**: Used to build and save the machine learning model.
-- **Pickle**: Used to serialize and deserialize the trained model.
-
 ## View the App
 
-You can view the live Movie Recommender System app by clicking on the link below:
+You can view the live Car Price Prediction App built using Streamlit by clicking on the link below:
 
-[View Car Price Prediction App](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
+[View Car Price Prediction App built using Streamlit](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
 
 ## Contact
 
