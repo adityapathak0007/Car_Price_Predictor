@@ -63,7 +63,6 @@ To run this app locally, follow these steps:
 ---
 
 ### 6. Files
-```markdown
 ## 📁 Files
 
 - **app2.py**: The main Python script for the Streamlit web app.
