@@ -40,13 +40,12 @@ To run this app locally, follow these steps:
    git clone https://github.com/adityapathak0007/car-price-prediction-app.git
 
 2. Navigate to the project directory:
-```bash
-cd car-price-prediction-app
-Install the required Python libraries:
+   ```bash
+   cd car-price-prediction-app
 
 3. Install the required Python libraries:
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ### Ensure the following files are present in the root directory:
 
