@@ -1,5 +1,7 @@
 # 🚗 Car Price Prediction App
 
+[View Car Price Prediction App](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
+
 This **Car Price Prediction App** allows users to predict the price of used cars based on various factors such as the car's brand, model, year of purchase, fuel type, and kilometers driven. The prediction is powered by a pre-trained linear regression model.
 
 ## 🛠️ Features
@@ -90,4 +92,17 @@ The predicted car price will be displayed on the sidebar.
 - **Scikit-learn**: Used to build and save the machine learning model.
 - **Pickle**: Used to serialize and deserialize the trained model.
 
+## View the App
 
+You can view the live Movie Recommender System app by clicking on the link below:
+
+[View Car Price Prediction App](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
+
+## Contact
+
+For any questions, suggestions, or feedback, please feel free to reach out:
+
+- **Aditya Pathak** 👤
+- **Email:** [adityapathak034@gmail.com](mailto:adityapathak034@gmail.com) 📧
+- **GitHub:** [adityapathak0007](https://github.com/adityapathak0007) 🐙
+- **LinkedIn:** [adityapathak07](https://www.linkedin.com/in/adityapathak07) 🔗
