@@ -3,10 +3,10 @@ import pandas as pd
 import pickle
 
 # Load the cleaned car data
-car = pd.read_csv("D:\\Aditya's Notes\\All Projects\\Cars Price Prediction\\Cleaned Car.csv")
+car = pd.read_csv("Cleaned Car.csv")
 
 # Load the pre-trained model
-model = pickle.load(open("D:\\Aditya's Notes\\All Projects\\Cars Price Prediction\\LinearRegressionModel.pkl", "rb"))
+model = pickle.load(open("LinearRegressionModel.pkl", "rb"))
 
 # Streamlit app layout
 st.set_page_config(page_title="Car Price Predictor", layout="centered")
