@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction Applications
+# Car Price Prediction Application 🚗
 
 [View Car Price Prediction App built using Streamlit](https://carpricepredictor-9f4aeequmfbqyzrx8wxappj.streamlit.app/)
 
